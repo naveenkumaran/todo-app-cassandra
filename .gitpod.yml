@@ -4,7 +4,7 @@ image:
 tasks:
   - name: todo-app-cassandra
     init: |
-      cd workspace/todo-app-cassandra && mvn clean package install -Dmaven.test.skip=true
+      cd /workspace/todo-app-cassandra && mvn clean package install -Dmaven.test.skip=true
 ports:
   - port: 9999
     onOpen: open-browser 
