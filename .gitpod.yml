@@ -6,7 +6,7 @@ tasks:
     init: |
       cd /workspace/todo-app-cassandra && mvn clean package install -Dmaven.test.skip=true
 ports:
-  - port: 9999
+  - port: 8080
     onOpen: open-browser 
 
 github:
